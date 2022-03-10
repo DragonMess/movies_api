@@ -25,8 +25,8 @@ function App() {
         loadedMovies.push({
           id: id,
           title: data[id].title,
-          openingText: data[id].openingText,
-          releaseDate: data[id].releaseDate,
+          openingText: data[id].opening_crawl,
+          releaseDate: data[id].release_date,
         });
       }
       setMovies(loadedMovies);
